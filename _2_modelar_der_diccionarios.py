@@ -99,9 +99,13 @@ def main():
 
     print("\nGalerias")
     mostrar_galerias(galerias)
+    while True:
+        galeria = ingresar_galeria()
+        galerias.append(galeria)
+        terminar = input("Terminar: S/N")
+        if terminar == "S":
+            break
 
-    galeria = ingresar_galeria()
-    print(galeria)
 
 
 
