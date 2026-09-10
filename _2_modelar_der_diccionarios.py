@@ -73,7 +73,8 @@ def mostrar_galerias(galerias):
 
 
 def ingresar_galeria():
-    id = input("id: ")
+    print("\n*** INGRESO NUEVA GALERIA ***" )
+    id = input("id de galeria: ")
     nombre = input("nombre: ")
     ciudad = input("ciudad: ")
     pais = input("pais: ")
