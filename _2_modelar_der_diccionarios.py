@@ -88,7 +88,6 @@ def ingresar_galeria():
 
     return galeria
 
-
 # Paso : generá un Loop en la función main que llame a la función
 # # ingresar_galeria() - se sugiere que el usuario indique fin de carga
 
@@ -117,6 +116,14 @@ def buscar_galeria_pais(pais):
 def eliminar_galeria_id():
     # TO DO
     pass
+
+"""
+Comentario
+dd
+dd
+dd
+
+"""
 
 # Llamada a la función principal
 main()
