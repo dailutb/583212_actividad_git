@@ -114,6 +114,9 @@ def buscar_galeria_pais(pais):
             return galeria
     return None
 
+def eliminar_galeria_id():
+    # TO DO
+    pass
 
 # Llamada a la función principal
 main()
