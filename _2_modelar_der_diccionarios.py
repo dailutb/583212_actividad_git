@@ -108,7 +108,11 @@ def main():
             break
 
 
-
+def buscar_galeria_pais(pais):
+    for galeria in galerias:
+        if galeria["pais"]==pais:
+            return galeria
+    return None
 
 
 # Llamada a la función principal
